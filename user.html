@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEO Book Store
+    </title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&family=Indie+Flower&family=Roboto+Mono:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <!--div><img  class="wel" src="images/YM.png" alt=""></div-->
+        </div>
+        <div class="right">
+            <div class="rh">
+                <!--div><img src="images/YM.png" alt="" class="mob"></div-->
+                <img  class="wel" src="Images/Logo,jpg.png" alt="">
+            </div>
+            <p class="head">Login To NEO</p>
+            <div class="forms">
+                <form action="/signin" method="POST" class="signin">
+                    <p>Email</p>
+                    <input type="text" name="un" id="email">
+                    <p>Password</p>
+                    <input type="password" name="ps" id="password">
+                    <input type="submit" value="LOGIN" class="submit" id="submitButton">
+                </form>
+                <form action="/register" method="POST" class="register">
+                        <p>Email&nbsp;&nbsp;<span>*</span></p>
+                        <input type="text" name="fn" id="email" required>
+                        <p>Username&nbsp;&nbsp;<span>*</span></p>
+                        <input type="text" name="sn" id="username" required>
+                        <p>Mobile&nbsp;&nbsp;<span>*</span></p>
+                        <input type="text" name="un" id="mobilenumber" required>
+                        <p>Password&nbsp;&nbsp;<span>*</span></p>
+                        <input type="password" name="ps" id="password" required>
+                        <p>Confirm Password</p>
+                        <input type="email" name="em" id="confirmpassword">
+                        <input type="submit" value="Sign Up" class="submit" id="submitButton">
+                </form>
+            </div>
+            <div class="or">
+                <div><hr></div><p>or</p><div><hr></div>
+            </div>
+            <p class="n">New to NEO? <b class="new">&nbsp;Create Account</b></p>
+            <p class="l" style="display: none;">Already a member?<b class="ll">&nbsp;Click Here</b></p>
+        </div>
+    </div>
+    <script src="user.js"></script>
+</body>
+</html>
